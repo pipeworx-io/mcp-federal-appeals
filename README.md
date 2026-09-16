@@ -2,7 +2,7 @@
 
 Federal appellate dockets — the thirteen circuits, the Federal Circuit and the Supreme Court. 2.2 million dockets. This is the *case* on appeal; the written opinion that results is in the `court-listener` pack.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1573+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1576+ live data sources.
 
 No API key.
 
@@ -84,7 +84,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1573+ data sources. The
+Both URLs reach the same gateway and the same 1576+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
