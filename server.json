@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/federal-appeals",
   "title": "Federal Appeals",
   "description": "Federal appellate dockets — US federal court dockets.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/federal-appeals",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-federal-appeals",
