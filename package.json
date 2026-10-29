@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-federal-appeals",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "Federal appellate dockets — US federal court dockets.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-federal-appeals": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "federal-appeals"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-federal-appeals.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/federal-appeals",
   "pipeworx": {
-    "sourceHash": "v1-90c76430e8c47b930483dc95ea14e1884bb3f193618a6ca03919d3c57563719d",
-    "sourceCommit": "722087a9bda73f85942e8f6bbfd598544cb0d490"
+    "mode": "gateway",
+    "slug": "federal-appeals",
+    "gatewaySlug": "federal-appeals",
+    "sourceHash": "v1-7783c38dcfa74876de220c11d5d54b8a993317256366bad126e3ddb793939a6c",
+    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
   }
 }
