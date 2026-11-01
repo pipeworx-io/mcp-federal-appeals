@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-federal-appeals",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Federal appellate dockets — US federal court dockets.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "federal-appeals",
     "gatewaySlug": "federal-appeals",
-    "sourceHash": "v1-7783c38dcfa74876de220c11d5d54b8a993317256366bad126e3ddb793939a6c",
-    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
+    "sourceHash": "v1-fbffc84fe4173e77a58cf3d28a9da19859e9233676cd00f6c22b4036d3db0ef4",
+    "sourceCommit": "d35e32c1ffe988e24d391dedb35666387fd2b3d6"
   }
 }
